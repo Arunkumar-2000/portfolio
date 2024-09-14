@@ -23,7 +23,7 @@ const Navbar = () => {
       document.getElementById("contact").scrollIntoView({behavior:'smooth'});
 
     }}>
-        <img src={ contactimg}alt='' className='desktopMenuImg'/>Contact Me </button>
+        <img src={ contactimg}alt='' className='desktopMenuImg'/>Contact Arun </button>
 
         <img src={Menu} alt='Menu' className='mobMenu'  onClick={()=> setShowMenu(!showMenu)}/>
     <div className='navMenu' style={ {display: showMenu? 'flex':'none'}}>
